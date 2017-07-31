@@ -1,0 +1,17 @@
+<ul class="timeline">
+  <li *ngFor="let item of items; index as i">
+    <a href="javascript:void(0)" (click)="onClick(i)">
+      <div class="timeline-badge {{item['complete']?'primary':''}}" [innerHTML]="item['icon']">
+      </div>
+    </a>
+
+    <div class="timeline-panel {{item['complete']?'completedEvent':''}}">
+      <div class="timeline-heading">
+        <h4 class="timeline-title">{{item['title']}}</h4>
+      </div>
+      <div class="timeline-body">
+        <p>{{item['content']}}</p>
+      </div>
+    </div>
+  </li>
+</ul>

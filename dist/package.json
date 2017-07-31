@@ -1,0 +1,33 @@
+{
+  "name": "ng2-timeline",
+  "version": "0.1.0",
+  "description": "An angular js library that automatically generates timeline with callback function to handle click events",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mohdrashid/ng2-timeline"
+  },
+  "author": {
+    "name": "Mohammed Rashid",
+    "email": "mohmad.rashid@hotmail.com"
+  },
+  "keywords": [
+    "angular",
+    "timeline",
+    "milestone",
+    "angular2",
+    "ng2",
+    "events",
+    "tracker"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mohdrashid/ng2-timeline/issues"
+  },
+  "module": "ng2-timeline.js",
+  "typings": "ng2-timeline.d.ts",
+  "peerDependencies": {
+    "@angular/core": "^4.0.0",
+    "rxjs": "^5.1.0",
+    "zone.js": "^0.8.4"
+  }
+}
