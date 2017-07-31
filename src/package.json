@@ -1,6 +1,6 @@
 {
   "name": "ng2-timeline",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "An angular js library that automatically generates timeline with callback function to handle click events",
   "repository": {
     "type": "git",
